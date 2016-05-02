@@ -2,10 +2,10 @@
 from flask import Blueprint, render_template
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-ag6_40323155 = Blueprint('ag6_40323155', __name__, url_prefix='/ag6_40323155', template_folder='templates')
+ag10_40323128 = Blueprint('ag10_40323128', __name__, url_prefix='/ag10_40323128', template_folder='templates')
 
 # 展示傳回 Brython 程式
-@ag6_40323155.route('/a40323155')
+@ag10_40323128.route('/a40323128')
 def task1():
     outstring = '''
 <!DOCTYPE html>
@@ -83,23 +83,23 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
 
 O(0, 0, 0, 0, 0, "lightgreen", True, 4)
 </script>
-<!-- 以協同方式加上 40323152 的 A 程式碼 -->
-<script type="text/python" src="/ag6_40323155/a2_40323155"></script>
+<!-- 以協同方式加上 40323128 的 A 程式碼 -->
+<script type="text/python" src="/ag10_40323128/a2_40323128"></script>
 
-<!-- 以協同方式加上 40323152 的 A 程式碼 -->
-<script type="text/python" src="/ag6_40323155/a3_40323155"></script>
+<!-- 以協同方式加上 40323128 的 A 程式碼 -->
+<script type="text/python" src="/ag10_40323128/a3_40323128"></script>
 
-<!-- 以協同方式加上 40323152 的 A 程式碼 -->
-<script type="text/python" src="/ag6_40323155/a4_40323155"></script>
+<!-- 以協同方式加上 40323128 的 A 程式碼 -->
+<script type="text/python" src="/ag10_40323128/a4_40323128"></script>
 
-<!-- 以協同方式加上 40323152 的 A 程式碼 -->
-<script type="text/python" src="/ag6_40323155/a5_40323155"></script>
+<!-- 以協同方式加上 40323128 的 A 程式碼 -->
+<script type="text/python" src="/ag10_40323128/a5_40323128"></script>
 </body>
 </html>
 '''
     return outstring
     
-@ag6_40323155.route('/a2_40323155')
+@ag10_40323128.route('/a2_40323128')
 def task2():
     outstring = '''
 from javascript import JSConstructor
@@ -205,7 +205,7 @@ O(350, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
     
-@ag6_40323155.route('/a3_40323155')
+@ag10_40323128.route('/a3_40323128')
 def task3():
     outstring = '''
 from javascript import JSConstructor
@@ -311,7 +311,7 @@ O(700, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
     
-@ag6_40323155.route('/a4_40323155')
+@ag10_40323128.route('/a4_40323128')
 def task4():
     outstring = '''
 from javascript import JSConstructor
@@ -417,7 +417,7 @@ O(1050, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
     
-@ag6_40323155.route('/a5_40323155')
+@ag10_40323128.route('/a5_40323128')
 def task5():
     outstring = '''
 from javascript import JSConstructor

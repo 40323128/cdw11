@@ -20,7 +20,7 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g6</vh>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g10</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40323199-20160429.md</vh></v>
 </v>
 </v>
@@ -49,37 +49,13 @@
 </v>
 </v>
 </v>
-<v t="leo.20160502084140.1"><vh>@edit ag6_40323155.py</vh></v>
+<v t="leo.20160502084140.1"><vh>@edit ag10_40323128.py</vh></v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
 <t tx="amd.20160501215545.1"></t>
 <t tx="amd.20160501215558.1"></t>
 <t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215720.1">@language md
-Title: 40323199 cdw11 報告
-Category: ag100
-Tags: 40323199, cdw11
-Author: 40323199
-啟動 cdw11 協同專案
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;
-
-分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;
-
-fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;
-
-imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;
-
-請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;</t>
 <t tx="amd.20160501215942.1"></t>
 <t tx="amd.20160501220009.1"></t>
 <t tx="amd.20160501220009.2">@language python
@@ -104,7 +80,7 @@ g.es("admin pelican 近端執行完畢")
 if __name__ == "__main__":
     app.run()
     
-app.register_blueprint(users.a.g6.ag6_40323155.ag6_40323155)
+app.register_blueprint(users.a.g10.ag10_40323128.ag10_40323128)
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -240,7 +216,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
-import users.a.g6.ag6_40323155
+import users.a.g10.ag10_40323128
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
